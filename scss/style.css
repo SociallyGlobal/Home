@@ -137,6 +137,34 @@ button:focus {
   text-align: center;
 }
 
+/* Create three equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 40px;
+  color: black;
+  font-family: Comic Sans MS;
+  text-align: center;
+}
+
+.column3 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  color: black;
+  font-family: Comic Sans MS;
+  text-align: center;
+}
+
+.column4 {
+  float: left;
+  width: 32%;
+  padding: 20px;
+  color: black;
+  font-family: Comic Sans MS;
+  text-align: center;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -327,7 +355,7 @@ button:focus {
 }
 
 .header_area .navbar {
-  background: transparent;
+  background: linear-gradient(180deg, white, transparent);
   padding: 0px;
   border: 0px;
   border-radius: 0px;
