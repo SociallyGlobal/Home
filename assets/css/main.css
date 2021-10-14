@@ -4171,3 +4171,9 @@ input, select, textarea {
 		vertical-align: top; 
 		font-size: 2.5rem;
 	  }
+
+	@media (max-width: 650px) {
+	.navbar-brand {
+		display: none;
+		}
+	}
